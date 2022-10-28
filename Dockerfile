@@ -4,6 +4,7 @@ WORKDIR /tmp
 ADD Gemfile /tmp/
 ADD Gemfile.lock /tmp/
 RUN bundle install
+RUN bundle exec jekyll serve
 
 FROM jekyll/jekyll
 
