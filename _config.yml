@@ -61,8 +61,7 @@ kramdown:
 
 collections:
   tooltips:
-    output: true
-    sidebar_label: News
+    output: false
 # collections are declared here. this renders the content in _tooltips and processes it, but doesn't output it as actual files in the output unless you change output to true
 
 defaults:
@@ -115,8 +114,5 @@ description: "Intended as a documentation theme based on Jekyll for technical wr
 # baseurl: /documentation-theme-jekyll
 
 github: [metadata]
-
-jekyll_admin:
-  homepage: "pages"
 
 # Copyright 2021 Google LLC
