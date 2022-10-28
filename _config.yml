@@ -117,12 +117,6 @@ description: "Intended as a documentation theme based on Jekyll for technical wr
 github: [metadata]
 
 jekyll_admin:
-  hidden_links:
-    - posts
-    - pages
-    - staticfiles
-    - datafiles
-    - configuration
   homepage: "pages"
 
 # Copyright 2021 Google LLC
